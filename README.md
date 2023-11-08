@@ -1,8 +1,9 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Canvas (camera fov:64)
+-> Experience (ambientLight, OrbitControls, ScrollControls With 3 defined pages)
+    -> Office
+       -> gasp anaimation timeline based on page scroll
+       -> ref (Ground Floor), libraryRef (1st Floor), atticRef (2nd Floor)
+       -> useGLTF hook is used to import Office.glb
+    -> Overlay
+      -> text is displayed with help of tailwindcss
+      -> opacity is changed on basis of scroll (page 1,2,3)
